@@ -17,6 +17,8 @@ using System.Web.UI.WebControls;
 //www.google.com
 
 //for website.+\..+\..+
+
+
 namespace ValidationResultForm
 {
     public partial class Form : System.Web.UI.Page
@@ -27,10 +29,49 @@ namespace ValidationResultForm
         }
         protected void calculate(object sender, EventArgs e)
         {
-            //Pe
-            //int total = SSW.Text
-            //Result.Text = ""
+            int SSWMarks = int.Parse(SSW.Text);
+            int CNMarks = int.Parse(CN.Text);
+            int BISMarks = int.Parse(BIS.Text);
+            int SSMarks = int.Parse(SS.Text);
+            int ISMarks = int.Parse(IS.Text);
 
+            float total = (SSWMarks + CNMarks + BISMarks + SSMarks + ISMarks);
+            float per = total/5;
+            String grade = "";
+            if (per > 90)
+            {
+                grade = "A+";
+            }else if(per > 80 &&  per < 90)
+            {
+                grade = "A";
+            }else if(per > 70 && per < 80)
+            {
+                grade = "B";
+            }else if(per > 60 && per < 70)
+            {
+                grade = "B+";
+            }else
+            {
+                grade = "PASS";
+            }
+
+            Result.Text =   "<br/><br/>TOTAL =  " + total.ToString() +
+                            "<br/>PERCENTAGE = " + per.ToString("F2") + 
+                            "<br/>GRADE = " + grade.ToString();
+        }
+
+        protected void ResetValues(object sender,EventArgs e)
+        {
+            validationSum.Visible = false;
+
+            rollno.Text = "";
+            Name.Text = "";
+            SSW.Text = "";
+            CN.Text = "";
+            BIS.Text = "";
+            SS.Text = "";
+            IS.Text = "";
+            Result.Text = "";
         }
     }
 }

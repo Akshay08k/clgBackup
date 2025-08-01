@@ -53,11 +53,15 @@
             <asp:RangeValidator runat="server" ControlToValidate="IS" ErrorMessage="IS Marks Between 0 to 100" Display="None" ForeColor="Red" MaximumValue="100" MinimumValue="0" Type="Integer"></asp:RangeValidator>
             <br /><br />
 
-            <asp:Button Text="Calculation" runat="server" />
-            <asp:Button Text="Reset" runat="server" />
+            <asp:ValidationSummary ID="validationSum" DisplayMode="BulletList" HeaderText="Please Fix Errors" runat="server" ShowSummary="true" ShowMessageBox="false" ForeColor="red"/>
+
+
+            <asp:Button Text="Calculation" runat="server" OnClick="calculate" />
+            <asp:Button Text="Reset" runat="server" OnClick="ResetValues"/>
+
+            
 
             <asp:Label runat="server" ID="Result"></asp:Label>
-            <asp:ValidationSummary ID="validationSum" DisplayMode="BulletList" HeaderText="Please Fix Errors" runat="server" ShowSummary="true" ShowMessageBox="false" ForeColor="red"/>
         </div>
     </form>
 </body>
