@@ -15,7 +15,7 @@ namespace CustomValidation
         }
         protected void customValidator1_ServerValidate(object source, ServerValidateEventArgs args)
         {
-           if(args.Value.Length >= 3)
+           if(args.Value == "admin")
             {
                 args.IsValid = true;
             }
