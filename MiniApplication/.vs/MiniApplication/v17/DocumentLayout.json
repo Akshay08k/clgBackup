@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Akshay\\MiniApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|d:\\akshay\\miniapplication\\miniapplication\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|solutionrelative:miniapplication\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|d:\\akshay\\miniapplication\\miniapplication\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|solutionrelative:miniapplication\\registerpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|d:\\akshay\\miniapplication\\miniapplication\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|solutionrelative:miniapplication\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|d:\\akshay\\miniapplication\\miniapplication\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|solutionrelative:miniapplication\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|d:\\akshay\\miniapplication\\miniapplication\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|solutionrelative:miniapplication\\registerpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|d:\\akshay\\miniapplication\\miniapplication\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|solutionrelative:miniapplication\\loginpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|d:\\akshay\\miniapplication\\miniapplication\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|solutionrelative:miniapplication\\loginpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|d:\\akshay\\miniapplication\\miniapplication\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFF995AA-CC76-4A9B-BC02-F648D3FC8EC1}|MiniApplication\\MiniApplication.csproj|solutionrelative:miniapplication\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 390,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "D:\\Akshay\\MiniApplication\\MiniApplication\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "MiniApplication\\Dashboard.aspx.cs",
+              "ToolTip": "D:\\Akshay\\MiniApplication\\MiniApplication\\Dashboard.aspx.cs",
+              "RelativeToolTip": "MiniApplication\\Dashboard.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T07:49:28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registerpage.aspx.cs",
+              "DocumentMoniker": "D:\\Akshay\\MiniApplication\\MiniApplication\\Registerpage.aspx.cs",
+              "RelativeDocumentMoniker": "MiniApplication\\Registerpage.aspx.cs",
+              "ToolTip": "D:\\Akshay\\MiniApplication\\MiniApplication\\Registerpage.aspx.cs*",
+              "RelativeToolTip": "MiniApplication\\Registerpage.aspx.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T07:42:48.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Loginpage.aspx.cs",
+              "DocumentMoniker": "D:\\Akshay\\MiniApplication\\MiniApplication\\Loginpage.aspx.cs",
+              "RelativeDocumentMoniker": "MiniApplication\\Loginpage.aspx.cs",
+              "ToolTip": "D:\\Akshay\\MiniApplication\\MiniApplication\\Loginpage.aspx.cs",
+              "RelativeToolTip": "MiniApplication\\Loginpage.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T07:39:46.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Homepage.aspx.cs",
+              "DocumentMoniker": "D:\\Akshay\\MiniApplication\\MiniApplication\\Homepage.aspx.cs",
+              "RelativeDocumentMoniker": "MiniApplication\\Homepage.aspx.cs",
+              "ToolTip": "D:\\Akshay\\MiniApplication\\MiniApplication\\Homepage.aspx.cs",
+              "RelativeToolTip": "MiniApplication\\Homepage.aspx.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T07:38:18.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "D:\\Akshay\\MiniApplication\\MiniApplication\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "MiniApplication\\Dashboard.aspx",
+              "ToolTip": "D:\\Akshay\\MiniApplication\\MiniApplication\\Dashboard.aspx",
+              "RelativeToolTip": "MiniApplication\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-02T07:33:46.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Registerpage.aspx",
+              "DocumentMoniker": "D:\\Akshay\\MiniApplication\\MiniApplication\\Registerpage.aspx",
+              "RelativeDocumentMoniker": "MiniApplication\\Registerpage.aspx",
+              "ToolTip": "D:\\Akshay\\MiniApplication\\MiniApplication\\Registerpage.aspx",
+              "RelativeToolTip": "MiniApplication\\Registerpage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-02T07:33:34.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Loginpage.aspx",
+              "DocumentMoniker": "D:\\Akshay\\MiniApplication\\MiniApplication\\Loginpage.aspx",
+              "RelativeDocumentMoniker": "MiniApplication\\Loginpage.aspx",
+              "ToolTip": "D:\\Akshay\\MiniApplication\\MiniApplication\\Loginpage.aspx*",
+              "RelativeToolTip": "MiniApplication\\Loginpage.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-02T07:33:14.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Homepage.aspx",
+              "DocumentMoniker": "D:\\Akshay\\MiniApplication\\MiniApplication\\Homepage.aspx",
+              "RelativeDocumentMoniker": "MiniApplication\\Homepage.aspx",
+              "ToolTip": "D:\\Akshay\\MiniApplication\\MiniApplication\\Homepage.aspx*",
+              "RelativeToolTip": "MiniApplication\\Homepage.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-02T07:32:58.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 64,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

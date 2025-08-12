@@ -15,13 +15,26 @@ namespace CustomValidation
         }
         protected void customValidator1_ServerValidate(object source, ServerValidateEventArgs args)
         {
-           if(args.Value == "admin")
+           if(args.Value.ToLower().Trim() == "admin")
+            {
+                args.IsValid = true;
+                
+            }
+            else
+            {
+                args.IsValid = false;   
+            }
+        }
+
+        protected void customValidator2_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            if (int.Parse(args.Value) > 50)
             {
                 args.IsValid = true;
             }
             else
             {
-                args.IsValid = false;   
+                args.IsValid = false;
             }
         }
     }
