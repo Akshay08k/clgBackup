@@ -1,18 +1,25 @@
 import "package:flutter/material.dart";
+import 'package:math_expressions/math_expressions.dart';
 
-class Calc extends StatelessWidget {
+class Calc extends StatefulWidget {
   Calc({super.key});
 
-  TextEditingController ScreenValue = TextEditingController();
+  @override
+  State<Calc> createState() => _CalcState();
+}
 
+class _CalcState extends State<Calc> {
+  TextEditingController screen = TextEditingController();
+
+  // ignore: non_constant_identifier_names
   Widget NumberButton(
-    String text,
-    Color color, {
-    IconData? icon,
-    Color? iconColor,
-    Color? textColor,
-    Function()? onTap,
-  }) {
+      String text,
+      Color color, {
+        IconData? icon,
+        Color? iconColor,
+        Color? textColor,
+        Function()? onTap,
+      }) {
     return Expanded(
       child: InkWell(
         onTap: onTap,
@@ -23,12 +30,12 @@ class Calc extends StatelessWidget {
             backgroundColor: color,
             child: icon == null
                 ? Text(
-                    text,
-                    style: TextStyle(
-                      color: textColor ?? Colors.black,
-                      fontSize: 24,
-                    ),
-                  )
+              text,
+              style: TextStyle(
+                color: textColor ?? Colors.black,
+                fontSize: 24,
+              ),
+            )
                 : Icon(icon, color: iconColor ?? Colors.black),
           ),
         ),
@@ -45,20 +52,21 @@ class Calc extends StatelessWidget {
         backgroundColor: Colors.deepOrangeAccent,
       ),
       body: Center(
-        child: Container(
-          height: 400,
-          width: 240,
+        child: SizedBox(
+          height: 600,
+          width: 300,
           child: Column(
             children: [
               Padding(
                 padding: const EdgeInsets.fromLTRB(0, 40, 0, 0),
                 child: Row(
                   children: [
-                    Container(
+                    SizedBox(
                       height: 50,
-                      width: 240,
+                      width: 300,
                       child: TextField(
-                        controller: ScreenValue,
+                        controller: screen,
+                        readOnly: true,
                         decoration: InputDecoration(
                           enabledBorder: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(2.0),
@@ -76,58 +84,125 @@ class Calc extends StatelessWidget {
               ),
               Row(
                 children: [
-                  NumberButton("AC",Colors.orange),
-                  FloatingActionButton(
-                    onPressed: () {},
-                    child: Icon(Icons.percent_sharp),
+                  NumberButton("AC", Colors.orange, onTap: () {
+                    screen.text = "";
+                  }),
+                  NumberButton("%", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "%";
+                    });
+                  }),
+                  NumberButton("()", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "()";
+                    });
+                  }),
+                  NumberButton(
+                    "",
+                    Colors.orange,
+                    icon: Icons.backspace_rounded,
+                    onTap: () {
+                      if (screen.text.isNotEmpty) {
+                        setState(() {
+                          screen.text = screen.text.substring(0, screen.text.length - 1);
+                        });
+                      }
+                    },
                   ),
-                  FloatingActionButton(
-                    onPressed: () {},
-                    child: Icon(Icons.percent),
-                  ),
-                  FloatingActionButton(
-                    onPressed: () {},
-                    child: Icon(Icons.backspace_outlined),
-                  ),
-                ],
-              ),
-
-              Row(
-                children: [
-                  FloatingActionButton(onPressed: () {}, child: Text("7")),
-
-                  FloatingActionButton(onPressed: () {}, child: Text("8")),
-
-                  FloatingActionButton(onPressed: () {}, child: Text("9")),
-                  FloatingActionButton(onPressed: () {}, child: Text("/")),
                 ],
               ),
               Row(
                 children: [
-                  FloatingActionButton(onPressed: () {}, child: Text("4")),
-
-                  FloatingActionButton(onPressed: () {}, child: Text("5")),
-
-                  FloatingActionButton(onPressed: () {}, child: Text("6")),
-                  FloatingActionButton(onPressed: () {}, child: Text("*")),
+                  NumberButton("7", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "7";
+                    });
+                  }),
+                  NumberButton("8", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "8";
+                    });
+                  }),
+                  NumberButton("9", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "9";
+                    });
+                  }),
+                  NumberButton("/", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "/";
+                    });
+                  }),
                 ],
               ),
               Row(
                 children: [
-                  FloatingActionButton(onPressed: () {}, child: Text("1")),
-
-                  FloatingActionButton(onPressed: () {}, child: Text("2")),
-
-                  FloatingActionButton(onPressed: () {}, child: Text("3")),
-                  FloatingActionButton(onPressed: () {}, child: Text("-")),
+                  NumberButton("4", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "4";
+                    });
+                  }),
+                  NumberButton("5", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "5";
+                    });
+                  }),
+                  NumberButton("6", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "6";
+                    });
+                  }),
+                  NumberButton("*", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "*";
+                    });
+                  }),
                 ],
               ),
               Row(
                 children: [
-                  FloatingActionButton(onPressed: () {}, child: Text("/")),
-                  FloatingActionButton(onPressed: () {}, child: Text("0")),
-                  FloatingActionButton(onPressed: () {}, child: Text("=")),
-                  FloatingActionButton(onPressed: () {}, child: Text("+")),
+                  NumberButton("1", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "1";
+                    });
+                  }),
+                  NumberButton("2", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "2";
+                    });
+                  }),
+                  NumberButton("3", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "3";
+                    });
+                  }),
+                  NumberButton("-", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "-";
+                    });
+                  }),
+                ],
+              ),
+              Row(
+                children: [
+                  NumberButton(".", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += ".";
+                    });
+                  }),
+                  NumberButton("0", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "0";
+                    });
+                  }),
+                  NumberButton("=", Colors.orange, onTap: () {
+                    handleClick(screen.text);
+                  }),
+                  NumberButton("+", Colors.orange, onTap: () {
+                    setState(() {
+                      screen.text += "+";
+                    });
+                  }),
                 ],
               ),
             ],
@@ -135,5 +210,27 @@ class Calc extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  void handleClick(String value) {
+    try {
+      // Create a parser object
+      Parser p = Parser();
+      // Parse the input string and create an expression
+      Expression exp = p.parse(value);
+      // Create a context model (empty for simple expressions)
+      ContextModel cm = ContextModel();
+      // Evaluate the expression
+      double eval = exp.evaluate(EvaluationType.REAL, cm);
+      // Update the screen with the result
+      setState(() {
+        screen.text = eval.toString();
+      });
+    } catch (e) {
+      // Handle any errors, e.g., an invalid expression
+      setState(() {
+        screen.text = "Error";
+      });
+    }
   }
 }

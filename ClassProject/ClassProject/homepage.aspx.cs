@@ -48,7 +48,7 @@ namespace ClassProject
             result.Text = c1.display();
         }
 
-        protected void LoadDetailsDBclick(object sender, EventArgs e)
+        protected void loadDetailsDBclick(object sender, EventArgs e)
         {
             car c2 = new car();
             result.Text = c2.display();

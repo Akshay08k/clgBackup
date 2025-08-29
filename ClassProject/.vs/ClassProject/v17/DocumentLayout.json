@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Akshay\\ClassProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B0F8C94-702C-4A4C-B94E-3C48493D9EC9}|ClassProject\\ClassProject.csproj|D:\\Akshay\\ClassProject\\classproject\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B0F8C94-702C-4A4C-B94E-3C48493D9EC9}|ClassProject\\ClassProject.csproj|d:\\akshay\\classproject\\classproject\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B0F8C94-702C-4A4C-B94E-3C48493D9EC9}|ClassProject\\ClassProject.csproj|solutionrelative:classproject\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B0F8C94-702C-4A4C-B94E-3C48493D9EC9}|ClassProject\\ClassProject.csproj|d:\\akshay\\classproject\\classproject\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{7B0F8C94-702C-4A4C-B94E-3C48493D9EC9}|ClassProject\\ClassProject.csproj|D:\\Akshay\\ClassProject\\classproject\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{7B0F8C94-702C-4A4C-B94E-3C48493D9EC9}|ClassProject\\ClassProject.csproj|solutionrelative:classproject\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -53,7 +53,7 @@
               "RelativeDocumentMoniker": "ClassProject\\homepage.aspx.cs",
               "ToolTip": "D:\\Akshay\\ClassProject\\ClassProject\\homepage.aspx.cs",
               "RelativeToolTip": "ClassProject\\homepage.aspx.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T07:45:39.255Z",
               "EditorCaption": ""
