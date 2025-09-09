@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Ljinstitute.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Nothing</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .text{
+            padding-top:10px;
+        }
+        .header{
+            display:flex;
+            justify-content:space-around;
+        }
+        .image{
+            height:50px;
+            width:150px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="header">
+                <div class="text">L J INSTITUTE OF COMPUTER APPLICATIONS</div>
+                <asp:Image CssClass="image" runat="server" ImageUrl="~/ljlogo2.png" />
+            </div>
+            <hr />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <div style="display:flex; justify-content:space-around">
+                <div>Master of computer applications</div>
+                <div>Contact us : lj@gmail.com</div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

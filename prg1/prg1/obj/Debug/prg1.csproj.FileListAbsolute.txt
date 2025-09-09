@@ -1,0 +1,2 @@
+D:\Akshay\prg1\prg1\obj\Debug\prg1.csproj.AssemblyReference.cache
+D:\Akshay\prg1\prg1\obj\Debug\prg1.csproj.CoreCompileInputs.cache
