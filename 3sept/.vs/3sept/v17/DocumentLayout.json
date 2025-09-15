@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{AF7642F1-54F1-495D-84FE-CC2BD514004A}|3sept\\3sept.csproj|solutionrelative:3sept\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF7642F1-54F1-495D-84FE-CC2BD514004A}|3sept\\3sept.csproj|d:\\akshay\\3sept\\3sept\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{AF7642F1-54F1-495D-84FE-CC2BD514004A}|3sept\\3sept.csproj|D:\\Akshay\\3sept\\3sept\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{AF7642F1-54F1-495D-84FE-CC2BD514004A}|3sept\\3sept.csproj|solutionrelative:3sept\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "3sept\\homepage.aspx.cs",
               "ToolTip": "D:\\Akshay\\3sept\\3sept\\homepage.aspx.cs",
               "RelativeToolTip": "3sept\\homepage.aspx.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwCYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwB0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T08:06:55.698Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "3sept\\homepage.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-09-03T08:06:45.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T08:06:45.661Z"
             }
           ]
         },

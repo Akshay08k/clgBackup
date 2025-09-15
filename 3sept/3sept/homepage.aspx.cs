@@ -30,6 +30,7 @@ namespace _3sept
         protected void btnClick(object sender, EventArgs e)
         {
             var feedbackTuple = Tuple.Create(name.Text,email.Text,rating.Text,course.Text,subject.Text,feedback.Text);
+            
             feedbacks.Add(feedbackTuple);
 
             
