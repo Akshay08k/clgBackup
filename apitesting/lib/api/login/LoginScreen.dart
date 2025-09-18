@@ -2,6 +2,8 @@ import 'package:apitesting/api/login/ApiServices.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
+  const LoginPage({super.key});
+
   @override
   State<LoginPage> createState() => _LoginPageState();
 }
@@ -23,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
 
       if (email.isEmpty) {
         _emailError = 'Email is required';
-      } else if (!RegExp(r'^[\w-.]+@([\w-]+\.)+[\w]{2,4}$').hasMatch(email)) {
+      } else if (!RegExp(r'^[\w-.]+@([\w-]+\.)+\w{2,4}$').hasMatch(email)) {
         _emailError = 'Enter a valid email';
       }
 
@@ -34,7 +36,7 @@ class _LoginPageState extends State<LoginPage> {
       }
 
       if (_emailError == null && _passwordError == null) {
-        // For demo purpose: show SnackBar
+
         ApiServices().login(email, password);
 
 
@@ -42,7 +44,7 @@ class _LoginPageState extends State<LoginPage> {
           SnackBar(content: Text('Logging in as $email')),
         );
 
-        // TODO: Implement actual login logic
+
       }
     });
   }
@@ -83,10 +85,10 @@ class _LoginPageState extends State<LoginPage> {
             // Login Button
             ElevatedButton(
               onPressed: _login,
-              child: Text('Login'),
               style: ElevatedButton.styleFrom(
                 minimumSize: Size(double.infinity, 48),
               ),
+              child: Text('Login'),
             ),
           ],
         ),

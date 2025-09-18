@@ -1,40 +1,31 @@
-import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'dart:convert';
+import './LoginModel.dart';
 
-import 'LoginModel.dart';
+class ApiServices {
+  Future<UserData?> login(String email, String password) async {
+    Uri url = Uri.parse("https://sparkstoideas.com/LJ/api/login");
 
-class ApiServices{
-  Future<Map<String ,dynamic>> login(String email,password) async{
-      final url = Uri.parse("https://www.sparkstoideas.com/LJ/api/login");
-      try{
-        final response = await http.post(
-          url,
-          headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-          body: {
-              "Email" : email,
-              "Password": password
-          },
-        );
+    try {
+      final res = await http.post(
+        url,
+        body: {
+          "Email": email,
+          "Password": password,
+        },
+      );
 
-        print(response.body);
-
-        if(response.statusCode == 200){
-          return {
-            "success" : true,
-            "Message" : "Login Successfull",
-          };
-        }else{
-          return{
-            "sucess":false,
-            "Message" : "Login Failed",
-          };
+      if (res.statusCode == 200) {
+        final jsonData = json.decode(res.body);
+        return UserData.fromJson(jsonData);
+      } else {
+        print("Failed to login: ${res.statusCode}");
+        return null;
         }
-      }catch(e){
-        print(e);
-      }
-      return{
-        "sucess":false,
-        "Message" : "Login Failed",
-      };
+      } catch (e) {
+      print("Error during login: $e");
+      return null;
+    }
   }
 }
+
